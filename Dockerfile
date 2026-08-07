@@ -1,6 +1,6 @@
 # Imagem oficial do Playwright: já vem com Chromium + todas as libs do sistema.
 # (self-consistente: a versão do browser bate com a do pacote playwright)
-FROM mcr.microsoft.com/playwright:v1.48.0-jammy
+FROM mcr.microsoft.com/playwright:v1.62.1-jammy
 
 WORKDIR /app
 
