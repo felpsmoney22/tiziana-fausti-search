@@ -1,0 +1,14 @@
+{
+  "name": "tf-search-api",
+  "version": "1.0.0",
+  "description": "Micro-serviço de busca na Tiziana Fausti (resolve AWS WAF via navegador real e mantém login) para consumo pelo n8n.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "playwright": "^1.48.0"
+  }
+}
